@@ -1,0 +1,36 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.recipe-container {
+  margin-top: 20px;
+}
+
+.recipe-card {
+  transition: transform 0.2s;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+.recipe-details img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.recipe-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cuisineList {
+  height: 60vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
