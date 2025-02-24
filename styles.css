@@ -12,6 +12,8 @@ body {
 
 .recipe-card {
   transition: transform 0.2s;
+  width: 95%;
+  margin-top: 10px;
 }
 
 .recipe-card:hover {
