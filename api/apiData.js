@@ -8,7 +8,7 @@ const foodAPI = axios.create({
   },
   params: {
     apiKey: API_KEY,
-    number: 10,
+    number: 9,
   },
 });
 

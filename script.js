@@ -1,4 +1,3 @@
-// import { response } from "./api/fake.js";
 import { displayRecipeDetails } from "./displayRecipeDetails.js";
 import { displayRecipes } from "./displayRecipes.js";
 import { recipeData } from "./store/recipeData.js";
